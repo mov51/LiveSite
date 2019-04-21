@@ -1,7 +1,8 @@
 
 <?php
 
-$myApiKey="AIzaSyCJNeqw_ngcPNGohVOSf_eiq0MU2U6FlPo";
+include $_SERVER['DOCUMENT_ROOT'] . "/include/config.php";
+
 $myChannelID="UCRlTx9vzLsyHKPB-cJhqQjg";
 $maxResults="10";
 $cacheFile=dirname(__FILE__) .  "/videos/cache.json";
@@ -10,7 +11,7 @@ $cacheInterval=300; //time in seconds
 $time=gettimeofday();
 if ($time["sec"] > filemtime($cacheFile) + $cacheInterval)
 {
-  $myQuery = "https://www.googleapis.com/youtube/v3/search?key=$myApiKey&channelId=$myChannelID&part=snippet,id&order=date&maxResults=$maxResults&type=video";
+  $myQuery = "https://www.googleapis.com/youtube/v3/search?key=$youtubeApiKey&channelId=$myChannelID&part=snippet,id&order=date&maxResults=$maxResults&type=video";
   $videoList = file_get_contents($myQuery);
   file_put_contents($cacheFile, $videoList, LOCK_EX);
 }

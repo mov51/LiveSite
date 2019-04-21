@@ -1,3 +1,5 @@
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/include/config.php" ?>
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   var calendarEl = document.getElementById('calendar');
@@ -10,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
       center: '',
       right: 'next'
     },
-    googleCalendarApiKey: 'AIzaSyDopbC1bLqWbKCJqANeUjvxD3uFzx74K9Y',
+    googleCalendarApiKey: <?php echo($calenderApiKey);?>,
     events: {
       googleCalendarId: 'o98c40q376vvqv3v63khqqakas@group.calendar.google.com',
       className: 'gcal-event',
