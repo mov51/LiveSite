@@ -41,7 +41,7 @@
                 </p>
                 <ul class="list">
                   <li>
-                    Intel(R) Core(TM) i7-6700 CPU @3.40GHz
+                    Intel(R) Core(TM) i7 6700K 4.00 GHz
                   </li>
                   <li>
                     GIGABYTE GeForce GTX 1070 8GB
