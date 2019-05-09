@@ -7,16 +7,16 @@
 <html>
   <body>
       <!-- <div class="container-fluid">
-        <?php include './include/banner.php' ?>
+        <?php include './include/layout/banner.php' ?>
       </div> -->
-        <?php include './include/navbar.php' ?>
+        <?php include './include/layout/navbar.php' ?>
       <div class="container-fluid">
         <div class="row justify-content-center mt-3">
         <div class="order-2 order-lg-1 col-lg-3 my-lg-3 col-10 mb-3 ">
           <div class="left container-fluid box default">
             <div class="row justify-content-center">
-              <?php include './include/layout/left.php';
-              include './include/videos.php';?>
+              <?php include './include/layout/leftSidebar/left.php';
+              include './include/layout/leftSidebar/videos/videos.php';?>
             </div>
           </div>
         </div>

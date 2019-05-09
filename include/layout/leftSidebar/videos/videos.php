@@ -5,7 +5,7 @@ include $_SERVER['DOCUMENT_ROOT'] . "/include/config.php";
 
 $myChannelID="UCRlTx9vzLsyHKPB-cJhqQjg";
 $maxResults="10";
-$cacheFile=dirname(__FILE__) .  "/videos/cache.json";
+$cacheFile=dirname(__FILE__) .  "/include/layout/leftSidebar/videos/cache.json";
 $cacheInterval=300; //time in seconds
 
 $time=gettimeofday();
