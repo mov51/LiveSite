@@ -26,8 +26,8 @@
                 I am an autistic young adult that has found enjoyment in learning and sharing what I know. This website is a launch pad for my projects and a colection of some of my colected information. On this page you will find stuff about who I am and setups I use for projects.
               </p>
             </div>
-            <div class="center box default mb-3">
-              <a href="https://mov51.net/about.php#streams"><h3>Streams</h3></a>
+            <div id="streams" class="center box default mb-3">
+              <a href="#streams"><h3>Streams</h3></a>
               <p>
                 This is my stream schedule. I will do my best to keep it up to date with cancelations and time shifts.
               </p>

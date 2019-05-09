@@ -1,9 +1,9 @@
 // compile please
 $grid-gutter-width: 30px;
 
-@import 'D:/websites/devSite Server/sources/bootstrap/scss/bootstrap.scss';
-
 @import 'D:/git/LiveSite@/LiveSite/sources/SASS/dark.scss';
+
+@import 'D:/websites/devSite Server/sources/bootstrap/scss/bootstrap.scss';
 
 html {
   font-size: 56px;
@@ -14,6 +14,8 @@ body{
   color: $primary-text-color;
   padding-top: 198px;
 }
+
+// break points
 
 @include media-breakpoint-up(sm) {
   html {
@@ -36,6 +38,168 @@ body{
   }
   body{
     padding-top: 65px;
+  }
+}
+
+// layout
+
+div.banner{
+  background-color: yellow;
+  height: 100vh;
+}
+
+nav.nav{
+  z-index: 3000 !important;
+}
+
+
+div.left{
+  min-height: 600px;
+  div.TextBox{
+    p{
+
+    }
+  }
+}
+
+div.center{
+  min-height: 150px;
+  color: $primary-text-color;
+  font-size: 1.3em;
+  padding: 2%;
+  .intro{
+    font-weight: 700;
+  }
+  span{
+    &.ip{
+      text-align: center;
+      display: block;
+      font-size: 1.5em;
+    }
+  }
+}
+
+div.right{
+  min-height: 600px;
+}
+
+div.TextBox{
+  min-height: 75px;
+  p{
+    color: $secondary-text-color;
+    padding: 1%;
+  }
+}
+
+.box{
+  &:target{
+    padding-top: 70px !important;
+  }
+  &.default{
+    background-color: $primary-box-color;
+    border: 6px inset darken($primary-box-color, 5%);
+  }
+  &.danger{
+    background-color: $danger-bg;
+    border: 12px inset darken($danger-bg, 8%);
+    color: $danger-text;
+  }
+  &.dark{
+    background-color: $secondary-box-color;
+    border: 6px inset lighten($secondary-box-color, 15%);
+  }
+}
+
+div.video{
+  img{
+    width: 100%;
+    height: auto;
+  }
+  &:hover{
+    border: 6px outset lighten($secondary-box-color, 15%);
+  }
+  div{
+    background-position: center;
+    background-size: cover;
+    height: 9.5%;
+    width: 100%;
+  }
+  a{
+    color: $secondary-text-color;
+    text-decoration: none;
+    p.videoTitle{
+      display: block;
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+}
+
+div.media{
+  a{
+    margin: 0 auto;
+    color: $secondary-text-color;
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 16px;
+    &:hover{
+      padding-bottom: 0px;
+    }
+    span{
+      display: block;
+    }
+    img{
+      width: 32px;
+      height: auto;
+      &:hover{
+        width: 46px;
+      }
+    }
+  }
+}
+
+nav.navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  button.navbar-toggler{
+    background-color: $primary-box-color;
+    span.navbar-toggler-icon{
+      color: $primary-text-color;
+    }
+  }
+  &.navbar-dark{
+    a.navbar-brand{
+      color: $secondary-text-color;
+    }
+    li.nav-item{
+      a.nav-link{
+        color: $secondary-text-color;
+        &.hover{
+          color: $secondary-text-color;
+        }
+        &.activePage{
+          color: rgb(186, 0, 0);
+        }
+        &.disabled{
+          color: darken( $primary-box-color, 15% )
+        }
+      }
+    }
+    div.dropdown-menu{
+      background-color:$secondary-box-color;
+      a{
+        color: $secondary-text-color;
+        &.dropdown-item{
+          &:hover{
+            background-color: darken( $primary-box-color, 5% );
+            color: $primary-text-color;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -105,73 +269,6 @@ a{
   }
 }
 
-nav.navbar{
-  position: fixed;
-  top: 0;
-  width: 100%;
-  button.navbar-toggler{
-    background-color: $primary-box-color;
-    span.navbar-toggler-icon{
-      color: $primary-text-color;
-    }
-  }
-  &.navbar-dark{
-    a.navbar-brand{
-      color: $secondary-text-color;
-    }
-    li.nav-item{
-      a.nav-link{
-        color: $secondary-text-color;
-        &.hover{
-          color: $secondary-text-color;
-        }
-        &.activePage{
-          color: rgb(186, 0, 0);
-        }
-        &.disabled{
-          color: darken( $primary-box-color, 15% )
-        }
-      }
-    }
-    div.dropdown-menu{
-      background-color:$secondary-box-color;
-      a{
-        color: $secondary-text-color;
-        &.dropdown-item{
-          &:hover{
-            background-color: darken( $primary-box-border, 5% );
-            color: $primary-text-color;
-          }
-        }
-      }
-    }
-  }
-}
-
-.box{
-  &.default{
-    background-color: $primary-box-color;
-    border: 6px inset $primary-box-color;
-  }
-  &.danger{
-    background-color: $danger-bg;
-    border: 12px inset darken($danger-bg, 8%);
-    color: $danger-text;
-  }
-  &.dark{
-    background-color: $secondary-box-color;
-    border: 6px inset lighten($secondary-box-color, 15%);
-  }
-}
-
-div.TextBox{
-  min-height: 75px;
-  p{
-    color: $secondary-text-color;
-    padding: 1%;
-  }
-}
-
 ul.updateList{
   width: 85%;
   padding: 0;
@@ -193,66 +290,6 @@ ul.updateList{
   }
 }
 
-div.video{
-  img{
-    width: 100%;
-    height: auto;
-  }
-  &:hover{
-    border: 6px outset lighten($secondary-box-color, 15%);
-  }
-  div{
-    background-position: center;
-    background-size: cover;
-    height: 9.5%;
-    width: 100%;
-  }
-  a{
-    color: $secondary-text-color;
-    text-decoration: none;
-  }
-}
-
-div.left{
-  min-height: 600px;
-  div.TextBox{
-    p{
-
-    }
-  }
-}
-p.videoTitle{
-  display: block;
-  width: 100%;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-div.center{
-  min-height: 150px;
-  color: $primary-text-color;
-  font-size: 1.3em;
-  padding: 2%;
-  .intro{
-    font-weight: 700;
-  }
-  span{
-    &.ip{
-      text-align: center;
-      display: block;
-      font-size: 1.5em;
-    }
-  }
-}
-div.right{
-  min-height: 600px;
-}
-
-div.banner{
-  background-color: yellow;
-  height: 100vh;
-}
-
 div.CascadeList{
   .card{
     color: $secondary-text-color;
@@ -266,49 +303,13 @@ div.CascadeList{
   }
 }
 
-nav.nav{
-  z-index: 3000 !important;
-}
-
-span.sub{
-  font-size: .6em;
-  padding-left: 7%;
-}
-
 ul.list{
   list-style: none;
   li{
     margin-top: 3%;
-    border-bottom: 6px inset darken($primary-box-border, 15%);
+    border-bottom: 6px inset darken($primary-box-color, 15%);
     a{
       color: $primary-text-color;
-    }
-  }
-}
-
-:target{
-  padding-top: 70px !important;
-}
-
-div.media{
-  a{
-    margin: 0 auto;
-    color: $secondary-text-color;
-    text-decoration: none;
-    text-align: center;
-    padding-bottom: 16px;
-    &:hover{
-      padding-bottom: 0px;
-    }
-    span{
-      display: block;
-    }
-    img{
-      width: 32px;
-      height: auto;
-      &:hover{
-        width: 46px;
-      }
     }
   }
 }

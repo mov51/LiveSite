@@ -6,11 +6,13 @@ $primary-text-color: rgb(8, 8, 8);
 $secondary-text-color: rgb(189, 119, 0);
 
 $primary-box-color: rgb(177, 96, 0);
-$primary-box-border: lighten($primary-box-color, 15%);
 $secondary-box-color: rgb(19, 19, 19);
 
 $danger-bg: rgb(226, 68, 0);
 $danger-text: rgb(255, 255, 255);
+
+// bottstrap overides
+$dark: $secondary-box-color;
 
 body{
 
