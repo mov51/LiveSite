@@ -1,20 +1,9 @@
 // compile please
-$dark: rgb(19, 19, 19);
 $grid-gutter-width: 30px;
 
-$darkText: rgb(8, 8, 8);
-$orangeText: rgb(189, 119, 0);
-
-$background-color: rgb(59, 58, 58);
-$Box-color: rgb(177, 96, 0);
-$Box-border: rgb(187, 124, 0);
-
-$danger: rgb(226, 68, 0);
-$dangerText: rgb(255, 255, 255);
-
-
-
 @import 'D:/websites/devSite Server/sources/bootstrap/scss/bootstrap.scss';
+
+@import 'D:/git/LiveSite@/LiveSite/sources/SASS/dark.scss';
 
 html {
   font-size: 56px;
@@ -22,7 +11,7 @@ html {
 
 body{
   background-color:$background-color;
-  color: $darkText;
+  color: $primary-text-color;
   padding-top: 198px;
 }
 
@@ -53,16 +42,16 @@ body{
 button{
   &.btn{
     &.btn-primary{
-      background-color: $dark;
-      border-color: lighten($dark, 5%);
-      background-color: $dark;
-      border: 6px inset lighten($dark, 15%);
+      background-color: $secondary-box-color;
+      border-color: lighten($secondary-box-color, 5%);
+      background-color: $secondary-box-color;
+      border: 6px inset lighten($secondary-box-color, 15%);
       &:active{
-        background-color: lighten($dark, 15%) !important;
-        border: 6px outset lighten($dark, 15%);
+        background-color: lighten($secondary-box-color, 15%) !important;
+        border: 6px outset lighten($secondary-box-color, 15%);
       }
       &:focus{
-        border-color: lighten($dark, 15%) !important;
+        border-color: lighten($secondary-box-color, 15%) !important;
         box-shadow: none;
       }
     }
@@ -83,22 +72,22 @@ button{
     width: 10%;
   }
   .fc-time-grid-event,.fc-day-grid-event{
-    background-color: $dark;
-    border: 3px inset lighten($dark, 20%);
-    color: $orangeText;
+    background-color: $secondary-box-color;
+    border: 3px inset lighten($secondary-box-color, 20%);
+    color: $secondary-text-color;
     margin-left: 2%;
   }
   td,th{
     border-style: solid;
     border-width: 2px;
-    border-color: $dark;
+    border-color: $secondary-box-color;
   }
   div.table-bordered{
-    border-color: $dark;
+    border-color: $secondary-box-color;
   }
   .alert{
-    background-color: darken($Box-color, 5%);
-    border: 6px inset darken($Box-color, 10%);
+    background-color: darken($primary-box-color, 5%);
+    border: 6px inset darken($primary-box-color, 10%);
   }
   button{
     width: 100%;
@@ -112,7 +101,7 @@ a{
     text-decoration: none;
   }
   h3{
-    color: $darkText;
+    color: $primary-text-color;
   }
 }
 
@@ -121,37 +110,37 @@ nav.navbar{
   top: 0;
   width: 100%;
   button.navbar-toggler{
-    background-color: $Box-color;
+    background-color: $primary-box-color;
     span.navbar-toggler-icon{
-      color: $darkText;
+      color: $primary-text-color;
     }
   }
   &.navbar-dark{
     a.navbar-brand{
-      color: $orangeText;
+      color: $secondary-text-color;
     }
     li.nav-item{
       a.nav-link{
-        color: $orangeText;
+        color: $secondary-text-color;
         &.hover{
-          color: $orangeText;
+          color: $secondary-text-color;
         }
         &.activePage{
           color: rgb(186, 0, 0);
         }
         &.disabled{
-          color: darken( $Box-color, 15% )
+          color: darken( $primary-box-color, 15% )
         }
       }
     }
     div.dropdown-menu{
-      background-color:$dark;
+      background-color:$secondary-box-color;
       a{
-        color: $orangeText;
+        color: $secondary-text-color;
         &.dropdown-item{
           &:hover{
-            background-color: darken( $Box-border, 5% );
-            color: $darkText;
+            background-color: darken( $primary-box-border, 5% );
+            color: $primary-text-color;
           }
         }
       }
@@ -161,24 +150,24 @@ nav.navbar{
 
 .box{
   &.default{
-    background-color: $Box-color;
-    border: 6px inset $Box-border;
+    background-color: $primary-box-color;
+    border: 6px inset $primary-box-color;
   }
   &.danger{
-    background-color: $danger;
-    border: 12px inset darken($danger, 8%);
-    color: $dangerText;
+    background-color: $danger-bg;
+    border: 12px inset darken($danger-bg, 8%);
+    color: $danger-text;
   }
   &.dark{
-    background-color: $dark;
-    border: 6px inset lighten($dark, 15%);
+    background-color: $secondary-box-color;
+    border: 6px inset lighten($secondary-box-color, 15%);
   }
 }
 
 div.TextBox{
   min-height: 75px;
   p{
-    color: $orangeText;
+    color: $secondary-text-color;
     padding: 1%;
   }
 }
@@ -195,10 +184,10 @@ ul.updateList{
       width: 100%;
       display: block;
       text-decoration: none;
-      color: $orangeText;
+      color: $secondary-text-color;
       padding: 0 4% 0 4%;
       &:hover{
-        border: 6px outset lighten($dark, 15%);
+        border: 6px outset lighten($secondary-box-color, 15%);
       }
     }
   }
@@ -210,7 +199,7 @@ div.video{
     height: auto;
   }
   &:hover{
-    border: 6px outset lighten($dark, 15%);
+    border: 6px outset lighten($secondary-box-color, 15%);
   }
   div{
     background-position: center;
@@ -219,7 +208,7 @@ div.video{
     width: 100%;
   }
   a{
-    color: $orangeText;
+    color: $secondary-text-color;
     text-decoration: none;
   }
 }
@@ -241,7 +230,7 @@ p.videoTitle{
 }
 div.center{
   min-height: 150px;
-  color: $darkText;
+  color: $primary-text-color;
   font-size: 1.3em;
   padding: 2%;
   .intro{
@@ -266,9 +255,9 @@ div.banner{
 
 div.CascadeList{
   .card{
-    color: $orangeText;
+    color: $secondary-text-color;
     a{
-      color: $orangeText;
+      color: $secondary-text-color;
       font-weight: 400;
       letter-spacing: 0.04em;
     }
@@ -290,9 +279,9 @@ ul.list{
   list-style: none;
   li{
     margin-top: 3%;
-    border-bottom: 6px inset darken($Box-border, 15%);
+    border-bottom: 6px inset darken($primary-box-border, 15%);
     a{
-      color: $darkText;
+      color: $primary-text-color;
     }
   }
 }
@@ -304,7 +293,7 @@ ul.list{
 div.media{
   a{
     margin: 0 auto;
-    color: $orangeText;
+    color: $secondary-text-color;
     text-decoration: none;
     text-align: center;
     padding-bottom: 16px;
