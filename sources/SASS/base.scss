@@ -1,7 +1,7 @@
 // compile please
 $grid-gutter-width: 30px;
 
-@import 'D:/git/LiveSite@/LiveSite/sources/SASS/dark.scss';
+@import 'H:/projects/LiveSite/sources/SASS/dark.scss';
 
 @import 'D:/websites/devSite Server/sources/bootstrap/scss/bootstrap.scss';
 
@@ -55,11 +55,6 @@ nav.nav{
 
 div.left{
   min-height: 600px;
-  div.TextBox{
-    p{
-
-    }
-  }
 }
 
 div.center{
@@ -67,9 +62,6 @@ div.center{
   color: $primary-text-color;
   font-size: 1.3em;
   padding: 2%;
-  .intro{
-    font-weight: 700;
-  }
   span{
     &.ip{
       text-align: center;
@@ -83,31 +75,45 @@ div.right{
   min-height: 600px;
 }
 
-div.TextBox{
-  min-height: 75px;
-  p{
-    color: $secondary-text-color;
-    padding: 1%;
-  }
-}
-
 .box{
+  p{
+    padding: 1.5%;
+    &.intro{
+      font-weight: 700;
+    }
+  }
   &:target{
     padding-top: 70px !important;
   }
   &.default{
     background-color: $primary-box-color;
     border: 6px inset darken($primary-box-color, 5%);
+    &.hover:hover{
+      border: 6px outset lighten($primary-box-color, 15%);
+    }
   }
   &.danger{
     background-color: $danger-bg;
     border: 12px inset darken($danger-bg, 8%);
     color: $danger-text;
+    &.hover:hover{
+      border: 6px outset lighten($danger-bg, 15%);
+    }
   }
   &.dark{
     background-color: $secondary-box-color;
+    color: $secondary-text-color;
     border: 6px inset lighten($secondary-box-color, 15%);
+    &.hover:hover{
+      border: 6px outset lighten($secondary-box-color, 15%);
+    }
   }
+}
+
+div.article{
+  @extend .box;
+  @extend .default;
+  @extend .mb-3;
 }
 
 div.video{
@@ -261,11 +267,13 @@ button{
 
 a{
   text-decoration: none;
+  color: inherit;
   &:hover{
     text-decoration: none;
+    color: inherit;
   }
   h3{
-    color: $primary-text-color;
+    color: inherit;
   }
 }
 
@@ -281,11 +289,7 @@ ul.updateList{
       width: 100%;
       display: block;
       text-decoration: none;
-      color: $secondary-text-color;
       padding: 0 4% 0 4%;
-      &:hover{
-        border: 6px outset lighten($secondary-box-color, 15%);
-      }
     }
   }
 }

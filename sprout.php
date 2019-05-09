@@ -40,13 +40,7 @@
               <?php include './include/lists/sproutCrashes.php';?>
             </div>
         </div>
-        <div class="order-3 order-lg-3 col-lg-3 my-lg-3 col-10 mb-3">
-          <div class="right container-fluid box default">
-            <div class="row justify-content-center">
-              <?php include './include/layout/right.php';?>
-            </div>
-          </div>
-        </div>
+        <?php include './include/layout/right.php';?>
       </div>
     </div>
   </body>

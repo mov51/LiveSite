@@ -28,7 +28,7 @@ foreach ($decoded['items'] as $items)
   $id = $items['id']['videoId'];
   $title= $items['snippet']['title'];
   $thumbnail = $items['snippet']['thumbnails']['medium']['url'];
-  echo "<div class=\"video box dark col-5 m-1 p-1\">";
+  echo "<div class=\"video box dark hover col-5 m-1 p-1\">";
   echo '<a href="https://www.youtube.com/watch?v=' .  $id . '">';
   echo "<img src=\"$thumbnail\" >";
   echo "<p class=\"videoTitle\">";
