@@ -1,4 +1,4 @@
-
+// compile please
 $dark: rgb(19, 19, 19);
 $grid-gutter-width: 30px;
 
@@ -291,7 +291,14 @@ ul.list{
   li{
     margin-top: 3%;
     border-bottom: 6px inset darken($Box-border, 15%);
+    a{
+      color: $darkText;
+    }
   }
+}
+
+:target{
+  padding-top: 70px !important;
 }
 
 div.media{

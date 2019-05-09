@@ -33,9 +33,8 @@
               </p>
               <?php include './include/layout/calender/calender.php';?>
             </div>
-            <div class="center box default mb-3">
-              <p class="">
-                <h3>PC specs</h3>
+            <div id="PCspecs" class="center box default mb-3">
+                <a href="#PCspecs"><h3>PC specs</h3></a>
                 <p>
                   This is the pc that I do most of my work on. I continually upgrade it as I need to. Since the day I bought it have changed the ram, power supply, hard drives, and GPU. Please do not use it as an example of what to buy for yourself as each personb will need a differnt build for what they do.
                 </p>
@@ -50,7 +49,7 @@
                     3 AOC 2260 1080p monitors
                   </li>
                   <li>
-                    1 32 inch 1080p Sceptre television <span class="sub">duplicated monitor</span>
+                    1 32 inch 1080p Sceptre television <sub>duplicated monitor</sub>
                   </li>
                   <li>
                     1 acer 1080p monitor
@@ -59,11 +58,29 @@
                     32GB 2400 mhz DDR4 Ram
                   </li>
                 </ul>
-              </p>
             </div>
-            <div class="center box default mb-3">
-              <p class="">
-                <h3>Server specs</h3>
+            <div id="Alts" class="center box default mb-3">
+              <a href="#Alts"><h3>Minecraft accounts</h3></a>
+              <p>
+                I have 4 minecraft accounts, these are generaly know as alts. For me the alts are usefull in testing mods and plugins that have interactions with multiple players as well as running multiple farms while continuing to play the game. Many of you may see this as a waste of money, you may not see the use in buying a game 4 times. To me Mojang has more than earned the money I have spent on their game, the amount of joy and freinds I have recived from the game they made is priceless.
+              </p>
+              <ul class="list">
+                <li>
+                  <a href="https://namemc.com/profile/mov51.1">mov51 <sub>my main account - purchased 25 July, 2015</sub></a>
+                </li>
+                <li>
+                  <a href="https://namemc.com/profile/mov52.1">mov52 <sub>one of my alts - purchased 15 February, 2017</sub></a>
+                </li>
+                <li>
+                  <a href="https://namemc.com/profile/mov53.1">mov53 <sub>one of my alts - purchased 7 June, 2018</sub></a>
+                </li>
+                <li>
+                  <a href="https://namemc.com/profile/mov54.1">mov54 <sub>one of my alts - purchased 24 December, 2018</sub></a>
+                </li>
+              </ul>
+            </div>
+            <div id="ServerSpecs" class="center box default mb-3">
+                <a href="#ServerSpecs"><h3>Server specs</h3></a>
                 <p>
                   This is what I currently host my sprout server on. Its a dedicated micro PC that I have running in my house for the sole purpose of hosting the server.
                 </p>
@@ -78,7 +95,6 @@
                     16GB (2 x 8G) 204-Pin DDR3 SO-DIMM 1600
                   </li>
                 </ul>
-              </p>
             </div>
         </div>
         <div class="order-3 order-lg-3 col-lg-3 my-lg-3 col-10 mb-3">
