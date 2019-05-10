@@ -91,6 +91,14 @@ div.right{
     &.hover:hover{
       border: 6px outset lighten($primary-box-color, 15%);
     }
+    p{
+      code{
+        background-color: lighten($primary-box-color, 8%);
+        border-radius: 5px;
+        color: $primary-text-color;
+        padding: 4px 8px;
+      }
+    }
   }
   &.danger{
     background-color: $danger-bg;
@@ -114,6 +122,8 @@ div.article{
   @extend .box;
   @extend .default;
   @extend .mb-3;
+  min-height: 300px;
+  width: 100%;
 }
 
 div.video{
