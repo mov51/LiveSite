@@ -25,10 +25,11 @@
             <code>&lt;code&gt;&lt;/code&gt;</code> </br>
             displays code like this!
           </p>
-          <div class="box dark mr-2 ml-2">
+          <div class="box dark override mr-2 ml-2">
             <p>
-              <code>class="box dark"</code> </br>
-              this is an internal box, its set with the box class and adds just the backbround and border styles. it has all of the sub clases just like the article class.
+              <code>class="box dark override"</code> </br>
+              this is an internal box, its set with the box class and adds just the backbround and border styles. it has all of the sub clases just like the article class.</br>
+              in most cases you will need to add the override class to ensure that you have more specicity than the styled dic that the internal box is contained within.
             </p>
           </div>
         </div>
@@ -40,8 +41,9 @@
           </p>
           <div class="box default mt-2 mr-2 ml-2">
             <p>
-              <code>class="box default"</code> </br>
-              this is an internal box, its set with the box class and adds just the backbround and border styles. it has all of the sub clases just like the article class.
+              <code>class="box default override"</code> </br>
+              this is an internal box, its set with the box class and adds just the backbround and border styles. it has all of the sub clases just like the article class.</br>
+              in most cases you will need to add the override class to ensure that you have more specicity than the styled dic that the internal box is contained within.
             </p>
           </div>
         </div>
@@ -52,7 +54,7 @@
             this should change for all of the below elements.
           </p>
           <ul class="boxList">
-            <li class="">
+            <li class="box danger">
               <p><code>class="boxList"</code> the boxList class will clear and postion ul elements for further styling.</p>
             </li>
             <li class="box dark">
