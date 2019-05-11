@@ -31,11 +31,6 @@
               this is an internal box, its set with the box class and adds just the backbround and border styles. it has all of the sub clases just like the article class.
             </p>
           </div>
-          <ul>
-            <li class="box hover dark">
-              <code>class="box hover dark"</code>
-            </li>
-          </ul>
         </div>
         <div class="article dark">
           <p>
@@ -56,6 +51,17 @@
             adding the warning class to an article makes the background orange and the text flat white. </br>
             this should change for all of the below elements.
           </p>
+          <ul class="boxList">
+            <li class="">
+              <p><code>class="boxList"</code> the boxList class will clear and postion ul elements for further styling.</p>
+            </li>
+            <li class="box dark">
+              <p><code>class="box hover dark"</code> adding these classes will style a li element with a box style. this respects the style system.</p>
+            </li>
+            <li class="box dark hover">
+              <p><code>class="box hover dark"</code> adding the hover class to a styled box will cause the borders to change when its hoverd over. this is usefull to show that a box contains a link.</p>
+            </li>
+          </ul>
         </div>
       </div>
       <div class="order-3 order-lg-3 col-lg-3 my-lg-3 col-10 mb-3">
