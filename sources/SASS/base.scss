@@ -83,7 +83,7 @@ div.right{
   min-height: 600px;
 }
 
-.box{
+div.box, a.box, li.box{
   @extend .mb-3;
   p{
     padding: 1.5%;
@@ -220,7 +220,7 @@ nav.navbar{
           color: rgb(186, 0, 0);
         }
         &.disabled{
-          color: darken( $primary-box-color, 15% )
+          color: darken( $primary-box-color, 15% );
         }
       }
     }
