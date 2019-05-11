@@ -11,14 +11,15 @@
       </div>
       <div class="order-1 order-lg-2 col-lg-6 mb-lg-0 col-10">
         <!-- content here -->
-        <div class="article">
+        <div class="article default">
           <p class="intro">
             <code>class="intro"</code> </br>
             sets a paragraph in an article to font weight 700.
           </p>
           <p>
-            <code>class="article"</code> </br>
-            the class article applies this style to the div.
+            <code>class="article default"</code> </br>
+            the class article applies the positioning sytles to a div aswell as includes the box class styles.</br>
+            the default class styles the article/box with the the primary colors for the theme.
             </br>
             </br>
             <code>&lt;code&gt;&lt;/code&gt;</code> </br>
@@ -39,7 +40,7 @@
           </p>
           <div class="box default mt-2 mr-2 ml-2">
             <p>
-              <code>class="box"</code> </br>
+              <code>class="box default"</code> </br>
               this is an internal box, its set with the box class and adds just the backbround and border styles. it has all of the sub clases just like the article class.
             </p>
           </div>

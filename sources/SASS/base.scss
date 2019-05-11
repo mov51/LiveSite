@@ -86,6 +86,11 @@ div.right{
     &.intro{
       font-weight: 700;
     }
+    code{
+      border-radius: 5px;
+      color: inherit;
+      padding: 4px 8px;
+    }
   }
   &.default{
     background-color: $primary-box-color;
@@ -97,8 +102,6 @@ div.right{
     p{
       code{
         background-color: lighten($primary-box-color, 8%);
-        border-radius: 5px;
-        padding: 4px 8px;
       }
     }
   }
@@ -115,6 +118,7 @@ div.right{
     p{
       code{
         background-color: darken($danger-bg, 8%);
+        color: inherit;
       }
     }
   }
@@ -136,7 +140,6 @@ div.right{
 
 div.article{
   @extend .box;
-  @extend .default;
   min-height: 300px;
   width: 100%;
 }
