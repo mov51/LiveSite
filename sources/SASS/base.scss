@@ -9,6 +9,10 @@ html {
   font-size: 56px;
 }
 
+*{
+  color: inherit;
+}
+
 body{
   background-color:$background-color;
   color: $primary-text-color;
@@ -76,18 +80,17 @@ div.right{
 }
 
 .box{
+  @extend .mb-3;
   p{
     padding: 1.5%;
     &.intro{
       font-weight: 700;
     }
   }
-  &:target{
-    padding-top: 70px !important;
-  }
   &.default{
     background-color: $primary-box-color;
     border: 6px inset darken($primary-box-color, 5%);
+    color: $primary-text-color;
     &.hover:hover{
       border: 6px outset lighten($primary-box-color, 15%);
     }
@@ -95,10 +98,12 @@ div.right{
       code{
         background-color: lighten($primary-box-color, 8%);
         border-radius: 5px;
-        color: $primary-text-color;
         padding: 4px 8px;
       }
     }
+  }
+  &:target{
+    padding-top: 70px !important;
   }
   &.danger{
     background-color: $danger-bg;
@@ -106,6 +111,11 @@ div.right{
     color: $danger-text;
     &.hover:hover{
       border: 6px outset lighten($danger-bg, 15%);
+    }
+    p{
+      code{
+        background-color: darken($danger-bg, 8%);
+      }
     }
   }
   &.dark{
@@ -115,13 +125,18 @@ div.right{
     &.hover:hover{
       border: 6px outset lighten($secondary-box-color, 15%);
     }
+    p{
+      code{
+        background-color: lighten($secondary-box-color, 8%);
+        color: inherit;
+      }
+    }
   }
 }
 
 div.article{
   @extend .box;
   @extend .default;
-  @extend .mb-3;
   min-height: 300px;
   width: 100%;
 }
