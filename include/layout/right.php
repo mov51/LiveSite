@@ -12,7 +12,7 @@
           <a href=""><img src="sources\IMG\twitter-favicon-32x32.png"/><span>Twitter</span></a>
         </div>
       </div>
-      <ul class="updateList">
+      <ul class="boxList">
         <li>
           <a class="box hover dark" href="#">Updates are to come!</a>
         </li>

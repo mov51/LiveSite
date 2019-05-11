@@ -31,6 +31,11 @@
               this is an internal box, its set with the box class and adds just the backbround and border styles. it has all of the sub clases just like the article class.
             </p>
           </div>
+          <ul>
+            <li class="box hover dark">
+              <code>class="box hover dark"</code>
+            </li>
+          </ul>
         </div>
         <div class="article dark">
           <p>

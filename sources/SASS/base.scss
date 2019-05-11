@@ -19,6 +19,10 @@ body{
   padding-top: 198px;
 }
 
+code{
+  color: inherit;
+}
+
 // break points
 
 @include media-breakpoint-up(sm) {
@@ -118,7 +122,6 @@ div.right{
     p{
       code{
         background-color: darken($danger-bg, 8%);
-        color: inherit;
       }
     }
   }
@@ -132,7 +135,6 @@ div.right{
     p{
       code{
         background-color: lighten($secondary-box-color, 8%);
-        color: inherit;
       }
     }
   }
@@ -305,7 +307,7 @@ a{
   }
 }
 
-ul.updateList{
+ul.boxList{
   width: 85%;
   padding: 0;
   margin: 0 auto 0 auto;
