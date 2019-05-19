@@ -6,10 +6,11 @@
           Updates on my projects and links to my social media are listed below!
         </p>
         <div class="media">
-          <a href=""><img src="sources\IMG\discord-favicon-32x32.png"/><span>discord</span></a>
-          <a href=""><img src="sources\IMG\mixer-favicon-32x32.png"/><span>Mixer</span></a>
-          <a href=""><img src="sources\IMG\youtube-favicon-32x32.png"/><span>Youtube</span></a>
-          <a href=""><img src="sources\IMG\twitter-favicon-32x32.png"/><span>Twitter</span></a>
+          <a href="https://discord.mov51.net/"><img src="sources\IMG\discord-favicon-32x32.png"/><span>discord</span></a>
+          <a href="https://mixer.mov51.net/"><img src="sources\IMG\mixer-favicon-32x32.png"/><span>Mixer</span></a>
+          <a href="https://youtube.mov51.net/"><img src="sources\IMG\youtube-favicon-32x32.png"/><span>Youtube</span></a>
+          <a href="https://twitter.mov51.net/"><img src="sources\IMG\twitter-favicon-32x32.png"/><span>Twitter</span></a>
+          <a href="https://github.com/mov51"><img src="sources\IMG\GitHub-Mark-Light-120px-plus.png"/><span>Github</span></a>
         </div>
       </div>
       <ul class="boxList">
