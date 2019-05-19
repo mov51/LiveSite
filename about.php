@@ -64,6 +64,9 @@
               <p>
                 I have 4 minecraft accounts, these are generaly know as alts. For me the alts are usefull in testing mods and plugins that have interactions with multiple players as well as running multiple farms while continuing to play the game. Many of you may see this as a waste of money, you may not see the use in buying a game 4 times. To me Mojang has more than earned the money I have spent on their game, the amount of joy and freinds I have recived from the game they made is priceless.
               </p>
+              <p id="dontBuySecondHand">
+                As far as how I got them, I purchased them directly from mojang at full price for a number of reasons. The primary of which being that I want to support the games devolopment. As a second point, when you buy an account seccond hand the owner of the account can take it back. Mojang will and does allow for scammers to sell an account and have the account data reset. Even if you change the email and password attached to the account. This allows for people to easily scam players by selling accounts for very, very little. When you see someone selling accounts for magnitudes lower than the cost of the game, especially in bulk, they are likley just looking to make a quick buck off of you. Sadly, this is the way mojang has their account system set up. You get a string of numbers when you purchase an account that allows a support person at mojeng to reset your account to whetever settings you want, that means a person can sell their account, reset it, and sell it again as many times as they want.
+              </p>
               <ul class="list">
                 <li>
                   <a href="https://namemc.com/profile/mov51.1">mov51 <sub>my main account - purchased 25 July, 2015</sub></a>
