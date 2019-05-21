@@ -32,12 +32,16 @@
               You need at least 4 GB of ram to allocate to minecraft, any less and the game will be unplayable. A dedicated graphics card is generally required but some integrated ones seem to be able to handle the load.
             </div>
             <div class="center box default mb-3">
-              <h3>Rules<span class="sub">Click each rule for more information</span></h3>
+              <h3>Rules<sub>Click each rule for more information</sub></h3>
               <?php include './include/lists/sproutRules.php';?>
             </div>
             <div class="center box default mb-3">
-              <h3>Known crashes<span class="sub">Click each crash for more information</span></h3>
+              <h3>Known crashes<sub>Click each crash for more information</sub></h3>
               <?php include './include/lists/sproutCrashes.php';?>
+            </div>
+            <div class="center box default mb-3">
+              <h3>Moderators<sub>Click each staff member for more information</sub></h3>
+              <?php include './include/lists/sproutStaff.php';?>
             </div>
         </div>
         <?php include './include/layout/right.php';?>

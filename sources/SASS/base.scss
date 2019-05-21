@@ -2,11 +2,11 @@
 $grid-gutter-width: 30px;
 
 // imports
-@import 'H:/projects/LiveSite/sources/SASS/dark.scss';
+@import 'D:/git/LiveSite/sources/SASS/dark.scss';
 @import 'D:/websites/devSite Server/sources/bootstrap/scss/bootstrap.scss';
 
 // overrides
-@import 'H:/projects/LiveSite/include/layout/calender/calendar.scss';
+@import 'D:/git/LiveSite/include/layout/calender/calendar.scss';
 
 // global styles
 
@@ -56,6 +56,12 @@ a{
   }
   h3{
     color: inherit;
+  }
+}
+
+h1,h2,h3,h4,h5,h6 {
+  sub{
+    padding-left: 2%;
   }
 }
 
@@ -309,6 +315,12 @@ div.CascadeList{
       color: $secondary-text-color;
       font-weight: 400;
       letter-spacing: 0.04em;
+      &.card-link{
+        img{
+          height: 5%;
+          margin-right: 4%;
+        }
+      }
     }
     border-radius: 0;
     margin-top: 2%;
