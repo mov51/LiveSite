@@ -19,6 +19,7 @@
            <a class="dropdown-item" href="sprout.php">Info</a>
            <a class="dropdown-item" href="sprout.php#rules">Rules</a>
            <a class="dropdown-item" href="sprout.php#knownCrashes">known Crashes</a>
+           <a class="dropdown-item" href="sprout.php#sproutStaff">Moderators</a>
          </div>
        </li>
        <li class="nav-item dropdown">
@@ -28,6 +29,7 @@
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="sprout.php">Info</a>
             <a class="dropdown-item" href="sprout.php#rules">Rules</a>
+            <a class="dropdown-item" href="sprout.php#sproutStaff">Moderators</a>
           </div>
         </li>
     </ul>

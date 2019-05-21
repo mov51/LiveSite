@@ -8,6 +8,8 @@
     </div>
     <div id="mov51" class="collapse" data-parent="#sproutStaff">
       <div class="card-body">
+        I'm the owner of the server, my goal is to make an open comunity with as little toxicity as possible. I couldnt do it without the people I have listed below. Each of them bring their own perspective to the comunity and have helped in ways I can never thank them enough for. <br /><br />
+        Since your already on my website my social media links are on the right of the website! Thats where you will find updates on current projects.
       </div>
     </div>
   </div>
