@@ -34,7 +34,7 @@
     </div>
     <div id="heek89" class="collapse" data-parent="#sproutStaff">
       <div class="card-body">
-        Has been baned. We do not speak of him.
+        Has been banned. We do not speak of him.
       </div>
     </div>
   </div>
@@ -59,6 +59,7 @@
     </div>
     <div id="Nankurunaisa" class="collapse" data-parent="#sproutStaff">
       <div class="card-body">
+        The most fearsome of the bunch, forever searching to better the days of those nearby and making sure people are prepared for the oncoming onslaught.
       </div>
     </div>
   </div>
