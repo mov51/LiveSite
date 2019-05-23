@@ -23,8 +23,26 @@
         <div class="order-1 order-lg-2 col-lg-6 mb-lg-0 col-10">
             <div class="center box default mb-3">
               <p class="intro">
-                I am an autistic young adult that has found enjoyment in learning and sharing what I know. This website is a launch pad for my projects and a colection of some of my colected information. On this page you will find stuff about who I am and setups I use for projects.
+                I am an autistic young adult that has found enjoyment in learning and sharing what I know. This website is a launch pad for my projects and a store house for some of my colected information. On this page you will find stuff about who I am and setups I use for projects.
               </p>
+            </div>
+            <div id="Contact" class="center box default mb-3">
+              <a href="#Contact"><h3>Contact me!</h3></a>
+              <div class="row ">
+                <div class="col-lg-6 col-12 box dark override">
+                  <p>
+                    I have a business email! If you have any questions about what I do or want some support for one of projects yuou can contact me there. Keep in mind I may point you to one of my more specific platforms such as github or discord for more specilized support. My email is if you dont know where to go.
+                  </p>
+                  <p>
+                    <code>mov51@mov51.net</code>
+                  </p>
+                </div>
+                <div class="col-lg-6 col-12">
+                  <div class="mx-auto" style="width: 35%;">
+                    <img style="width: 100%;" src="https://crafatar.com/renders/body/bf8b08a5-714c-4667-8f49-efce56cb7dc5?overlay=true"/>
+                  </div>
+                </div>
+              </div>
             </div>
             <div id="streams" class="center box default mb-3">
               <a href="#streams"><h3>Streams</h3></a>
