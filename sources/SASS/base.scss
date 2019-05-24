@@ -65,6 +65,15 @@ h1,h2,h3,h4,h5,h6 {
   }
 }
 
+P{
+  a{
+    color:rgb(235, 226, 29);
+    &:hover{
+      color:rgb(175, 235, 29);
+    }
+  }
+}
+
 // break points
 
 @include media-breakpoint-up(sm) {
