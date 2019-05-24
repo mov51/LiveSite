@@ -26,6 +26,9 @@
                 <span class="ip">IP: sprout.mov51.net</span>
                 I host a server for the modpack sprout. The pack is focused on exploration and intermod gating. This means that in order to progress through the pack you have to touch on each of the mods and explore the world to find the resources you need.
               </p>
+              <p>
+                To install the pack you can use the <a href="https://www.twitch.tv/downloads">twitch launcher</a> or <a href="https://multimc.org/">multiMC</a> from <a href="https://minecraft.curseforge.com/projects/sprout-explore-for-more?gameCategorySlug=modpacks&projectID=269327">curse</a>.
+              </p>
             </div>
             <div class="center box danger mb-3">
               This is a <strong>modpack</strong> for the <strong>java edition</strong> of the game. Seeing as you can't mod other versions of minecraft if you don't have <strong>java edition</strong> you will be unable to play on this server.<br/></br/>
