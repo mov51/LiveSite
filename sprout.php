@@ -2,7 +2,7 @@
   <?php include'./include/head.php';
   $pageTitle = 'sprout server';
   ?>
-  <title><?= $pageTitle ?></title>
+  <title><?= $pageTitle . " - mov51"?></title>
 </head>
 <html>
   <body>

@@ -6,10 +6,10 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link <?php if($pageTitle == 'home'){ echo"activePage";}?>" href="index.php">Home</a>
+        <a class="nav-link <?php if($pageTitle == 'Home'){ echo"activePage";}?>" href="index.php">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link <?php if($pageTitle == 'about mov51'){ echo"activePage";}?>" href="about.php">About</a>
+        <a class="nav-link <?php if($pageTitle == 'About'){ echo"activePage";}?>" href="about.php">About</a>
       </li>
       <li class="nav-item dropdown">
          <a class="nav-link dropdown-toggle <?php if($pageTitle == 'sprout server'){ echo"activePage";}?>" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -23,7 +23,7 @@
          </div>
        </li>
        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle disabled <?php if($pageTitle == 'mandates'){ echo"activePage";}?>" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle disabled <?php if($pageTitle == 'The mandates'){ echo"activePage";}?>" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             The Mandates
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -31,6 +31,9 @@
             <a class="dropdown-item" href="sprout.php#rules">Rules</a>
             <a class="dropdown-item" href="sprout.php#sproutStaff">Moderators</a>
           </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled <?php if($pageTitle == 'Instructions'){ echo"activePage";}?>" href="./Instructions.php">About</a>
         </li>
     </ul>
   </div>
