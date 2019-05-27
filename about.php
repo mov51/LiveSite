@@ -1,8 +1,8 @@
 <head>
   <?php include'./include/head.php';
-  $pageTitle = 'about mov51';
+  $pageTitle = 'About';
   ?>
-  <title><?= $pageTitle ?></title>
+  <title><?= $pageTitle . " - mov51"?></title>
 </head>
 <html>
   <body>
