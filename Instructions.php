@@ -61,7 +61,7 @@
                               </div>
                               <div class="col-lg-6 col-12">
                                 <div class="mx-auto py-2" style="width: 100%;">
-                                  <img style="width: 100%;" src="https://i.imgur.com/Y0mcmtk.png"/>
+                                  <a target="_blank" href="https://i.imgur.com/Y0mcmtk.png"><img style="width: 100%;" src="https://i.imgur.com/Y0mcmtk.png"/></a>
                                 </div>
                               </div>
                             </div>
@@ -73,13 +73,47 @@
                               </div>
                               <div class="col-lg-6 col-12">
                                 <div class="mx-auto mt-lg-5" style="width: 100%;">
-                                  <img style="width: 100%;" src="https://i.imgur.com/r83buNT.png"/>
+                                  <a target="_blank" href="https://i.imgur.com/r83buNT.png"><img style="width: 100%;" src="https://i.imgur.com/r83buNT.png"/></a>
                                 </div>
                               </div>
                           </div>
                         </div>
                       </div>
+                      </div>
                     </div>
+                    <div class="card box dark">
+                      <div class="card-header">
+                        <a class="card-link" data-toggle="collapse" href="#InstallApack">
+                          <img src="https://i.imgur.com/Adyc0iB.png"/>Installing A Modpack
+                        </a>
+                      </div>
+                      <div id="InstallApack" class="collapse" data-parent="#UsingTwitch">
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col-12 col-lg-6">
+                              <p>
+                                Now that you have the laucher installed and you have logged into to twitch you should see an image similar to image 1. <br />The first button you are going to want to click is mods. Once you've clicked the mods button you should see image 2, click minecraft (highlighted in image 2). once clicked you should see image 3, click install and that will allow twitch to manage mods for minecraft. <br /><br />And you've done the hard part! Now you should see image 4, wich is where you will manage your packs in the twitch launcher.
+                              </p>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                              <div class="row tiles">
+                                <div class="col-6 my-2">
+                                  <a target="_blank" href="https://i.imgur.com/odbajGI.png">Image 1<img style="width: 100%;" src="https://i.imgur.com/odbajGI.png"/></a>
+                                </div>
+                                <div class="col-6 my-2">
+                                  <a target="_blank" href="https://i.imgur.com/fDox3QX.png">Image 2<img style="width: 100%;" src="https://i.imgur.com/fDox3QX.png"/></a>
+                                </div>
+                                <div class="col-6 my-2">
+                                  <a target="_blank" href="https://i.imgur.com/LqA7gSU.png">Image 3<img style="width: 100%;" src="https://i.imgur.com/LqA7gSU.png"/></a>
+                                </div>
+                                <div class="col-6 my-2">
+                                  <a target="_blank" href="https://i.imgur.com/XY9OWtr.png">Image 4<img style="width: 100%;" src="https://i.imgur.com/XY9OWtr.png"/></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                   </div>
                 </div>
               </div>
