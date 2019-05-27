@@ -47,7 +47,7 @@
               <?php include './include/lists/sproutStaff.php';?>
             </div>
         </div>
-        <?php include './include/layout/right.php';?>
+        <?php include './include/layout/rightSidebar/right.php';?>
       </div>
     </div>
   </body>
