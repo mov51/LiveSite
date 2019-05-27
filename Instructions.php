@@ -29,11 +29,11 @@
             </div>
             <div id="TwitchLancher" class="center box default mb-3">
               <a href="#Contact"><h3>how to install a minecraft modpack on the twitch launcher</h3></a>
-              <div class="row ">
+              <div class="row justify-content-center">
                 <div class="col-lg-6 col-12 box dark override">
                   <p>
                     This article explains how to install a modpack for the java edition of minecraft with the twitch launcher. <br /><br />
-                    It requires the you have accses to the internet, a purchaced minecraft java edition account, a modpack you want to install, and a computer to install it on. The specifiactions requrired for the computer will vary depending on the pack you want to play, its best to ask for minmum specs in forums for the pack.
+                    It requires the you have accses to the internet, a purchaced minecraft java edition account, a twitch account, a modpack you want to install, and a computer to install it on. The specifiactions requrired for the computer will vary depending on the pack you want to play, its best to ask for minmum specs in forums for the pack.
                   </p>
                 </div>
                 <div class="col-lg-6 col-12">
@@ -42,10 +42,50 @@
                   </div>
                 </div>
               </div>
-            </div>
+                <div class="col-12">
+                  <div class="CascadeList" id="UsingTwitch">
+                    <div class="card box dark">
+                      <div class="card-header">
+                        <a class="card-link" data-toggle="collapse" href="#InstallTwitch">
+                          <img src="https://i.imgur.com/Adyc0iB.png"/>Installing Twitch
+                        </a>
+                      </div>
+                      <div id="InstallTwitch" class="collapse" data-parent="#UsingTwitch">
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="row justify-content-center">
+                              <div class="col-lg-6 col-12">
+                                <p>
+                                  First off you need the installer, open your web browser and go to <a target="_blank" href="https://www.twitch.tv/downloads">this link</a>. This tutorial assumes your using windows, so choose the windows installer
+                                </p>
+                              </div>
+                              <div class="col-lg-6 col-12">
+                                <div class="mx-auto py-2" style="width: 100%;">
+                                  <img style="width: 100%;" src="https://i.imgur.com/Y0mcmtk.png"/>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row justify-content-center">
+                              <div class="col-lg-6 col-12">
+                                <p>
+                                  Now that you have the installer open it. You can either click on it in your browser or navigate to your downloads folder and open it from there. <br /> Once youve opened the installer you will see a page that just says install, as you can imagine, click install. Once its finished it will automatically open the launcher and you will be asked to log in to your twitch account or sign up with a new one. Sign in with twitch and we can move on to installing the pack.
+                                </p>
+                              </div>
+                              <div class="col-lg-6 col-12">
+                                <div class="mx-auto mt-lg-5" style="width: 100%;">
+                                  <img style="width: 100%;" src="https://i.imgur.com/r83buNT.png"/>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </div>
-        <?php include './include/layout/rightSidebar/instruct.php';?>
       </div>
+      <?php include './include/layout/rightSidebar/instruct.php';?>
     </div>
   </body>
 </html>
