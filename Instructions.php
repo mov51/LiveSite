@@ -28,7 +28,7 @@
               </p>
             </div>
             <div id="TwitchLancher" class="center box default mb-3">
-              <a href="#Contact"><h3>how to install a minecraft modpack on the twitch launcher</h3></a>
+              <a href="#TwitchLancher"><h3>how to install a minecraft modpack on the twitch launcher</h3></a>
               <div class="row justify-content-center">
                 <div class="col-lg-6 col-12 box dark override">
                   <p>
@@ -44,10 +44,10 @@
               </div>
                 <div class="col-12">
                   <div class="CascadeList" id="UsingTwitch">
-                    <div class="card box dark">
+                    <div class="card box dark override">
                       <div class="card-header">
                         <a class="card-link" data-toggle="collapse" href="#InstallTwitch">
-                          <img src="https://i.imgur.com/Adyc0iB.png"/>Installing Twitch
+                          <img src="https://i.imgur.com/Adyc0iB.png"/>Installing The Launcher
                         </a>
                       </div>
                       <div id="InstallTwitch" class="collapse" data-parent="#UsingTwitch">
@@ -81,7 +81,7 @@
                       </div>
                       </div>
                     </div>
-                    <div class="card box dark">
+                    <div class="card box dark override">
                       <div class="card-header">
                         <a class="card-link" data-toggle="collapse" href="#InstallApack">
                           <img src="https://i.imgur.com/Adyc0iB.png"/>Installing A Modpack
@@ -111,10 +111,91 @@
                                 </div>
                               </div>
                             </div>
+                            <div class="col-12 col-lg-6 box default override">
+                              <p>
+                                To install a pack Click the browse modpacks button on the page from image 5. Once there use the search bar on the top right to find the pack your looking for, as an example the pack sprout (image 6). Hover over the left side of the pack you want to bring up the install button as seen in image 6, to bring up more details on the pack click anywhere else on the image (image 7). <br />
+                                The pack will take a few minutes to download all of the mods and configure forge and minecraft. Once done it will show up in your "my modpacks" page with a play button when you hover over it (image 8).
+                              </p>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                              <div class="row tiles">
+                                <div class="col-6 my-2">
+                                  <a target="_blank" href="https://i.imgur.com/JPU3DYO.png">Image 5<img style="width: 100%;" src="https://i.imgur.com/JPU3DYO.png"/></a>
+                                </div>
+                                <div class="col-6 my-2">
+                                  <a target="_blank" href="https://i.imgur.com/qCjOSfH.png">Image 6<img style="width: 100%;" src="https://i.imgur.com/qCjOSfH.png"/></a>
+                                </div>
+                                <div class="col-6 my-2">
+                                  <a target="_blank" href="https://i.imgur.com/ZbRmsXA.png">Image 7<img style="width: 100%;" src="https://i.imgur.com/ZbRmsXA.png"/></a>
+                                </div>
+                                <div class="col-6 my-2">
+                                  <a target="_blank" href="https://i.imgur.com/lXu2Gvg.png">Image 8<img style="width: 100%;" src="https://i.imgur.com/lXu2Gvg.png"/></a>
+                                </div>
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>
                   </div>
+                  <div class="card box dark override">
+                    <div class="card-header">
+                      <a class="card-link" data-toggle="collapse" href="#RamWithTwitch">
+                        <img src="https://i.imgur.com/Adyc0iB.png"/>Changing Alocated Ram
+                      </a>
+                    </div>
+                <div id="RamWithTwitch" class="collapse" data-parent="#UsingTwitch">
+                  <div class="card-body">
+                    <div class="row justify-content-center">
+                      <div class="col-12">
+                        Before you can start the pack it's important to make sure your alocated ram is high enough to run it. Modded minecraft has a very high ram requriement compared to vanilla minecraft. This means that you will have to change the ram allocation from the default settings.
+                      </div>
+                      <div class="col-12 col-lg-6">
+                        <p>
+                          First step is to open your twitch settings page. You'll find the settings in the hamburger on the top right of the window  menu under file->settings or by pressing <code>CTRL + ,</code>. Image 9 shows the location of the hamburgur menu to accses the settings menu. Once on the settings page click the minecraft button highlighted in image 10, once there scroll down untill you see the section highlighted in image 11.<br /><br />
+                          The smaller box thats highlighted in image 11 is the slider we are looking for, it sets the default ram for all packs that you create. The general rule is that fully featured packs will require 4-7 gigabytes of ram, that means you should in general have 8 gigabytes of ram installed on your pc to run a pack. This gives you ram to use for your operating system and other programs.
+                        </p>
+                      </div>
+                      <div class="col-12 col-lg-6">
+                        <div class="row tiles">
+                          <div class="col-12 my-2">
+                            <a target="_blank" href="https://i.imgur.com/BzF98r2.png">Image 9<img style="width: 100%;" src="https://i.imgur.com/BzF98r2.png"/></a>
+                          </div>
+                          <div class="col-12 my-2">
+                            <a target="_blank" href="https://i.imgur.com/4jkzVGA.png">Image 10<img style="width: 100%;" src="https://i.imgur.com/4jkzVGA.png"/></a>
+                          </div>
+                          <div class="col-12 my-2">
+                            <a target="_blank" href="https://i.imgur.com/70z0i5a.png">Image 11<img style="width: 100%;" src="https://i.imgur.com/70z0i5a.png"/></a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-lg-12 default override">
+                        <p>
+                          To get the amount of ram you wand to allocate take the GiB ammount and multiply it by 1024 to get the size in MiB. So if you want 6 GB's of ram for your pack (my recomended default) use the number <code>6144</code>. So now your settings page should look like image 12. Now that the default ram has been set you can start the pack, if it doesnt play very well you can try increasing the ram but keep in mind, more is not always better. The more ram you add to minecraft the harder it has to work to clear that memory. In general I wouldnt suggest more than 8 for any minecraft instance, though there are exeptions.
+                        </p>
+                      </div>
+                      <div class="col-12 col-lg-5">
+                        <a target="_blank" href="https://i.imgur.com/6qpKXFI.png">Image 11<img style="width: 100%;" src="https://i.imgur.com/6qpKXFI.png"/></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                  <div class="card box dark override">
+                    <div class="card-header">
+                      <a class="card-link" data-toggle="collapse" href="#LaunchTwitch">
+                        <img src="https://i.imgur.com/Adyc0iB.png"/>Launching A Modpack
+                      </a>
+                    </div>
+                <div id="LaunchTwitch" class="collapse" data-parent="#UsingTwitch">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-12">
+                        Now that you have Twitch setup and a pack installed the reset is just like using the vanilla launcher. Once you hit play Twitch will open the vanilla lancher with a seperate list of profiles that will have the modpack you want to play. You will need to login first as normal, then hit play in the launcher, thats it. To install new packs just repeat the steps above.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
                 </div>
               </div>
         </div>
