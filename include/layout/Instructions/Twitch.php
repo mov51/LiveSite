@@ -124,26 +124,36 @@
               </div>
               <div class="col-12 col-lg-6">
                 <p>
-                First step is to open your twitch settings page. You'll find the settings in the hamburger on the top right of the window  menu under file->settings or by pressing <code>CTRL + ,</code>. Image 9 shows the location of the hamburgur menu to accses the settings menu. Once on the settings page click the minecraft button highlighted in image 10, once there scroll down untill you see the section highlighted in image 11.<br /><br />
-                The smaller box thats highlighted in image 11 is the slider we are looking for, it sets the default ram for all packs that you create. The general rule is that fully featured packs will require 4-7 gigabytes of ram, that means you should in general have 8 gigabytes of ram installed on your pc to run a pack. This gives you ram to use for your operating system and other programs.
-                </p>
+                First step is to open your twitch settings page. You'll find the settings in the hamburger on the top right of the window  menu under file->settings or by pressing <code>CTRL + ,</code>. Image 9 shows the location of the hamburgur menu to accses the settings menu.</p>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="col-12 my-2">
+                  <a target="_blank" href="https://i.imgur.com/BzF98r2.png">Image 9<img style="width: 100%;" src="https://i.imgur.com/BzF98r2.png"/></a>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <p>
+                Once on the settings page click the minecraft button highlighted in image 10, once there scroll down to the bottom of the page. The smaller box thats highlighted in image 11 is the slider we are looking for, it sets the default ram for all packs that you create. </p>
               </div>
               <div class="col-12 col-lg-6">
                 <div class="row tiles">
-                  <div class="col-12 my-2">
-                    <a target="_blank" href="https://i.imgur.com/BzF98r2.png">Image 9<img style="width: 100%;" src="https://i.imgur.com/BzF98r2.png"/></a>
-                  </div>
-                  <div class="col-12 my-2">
+                  <div class="col-6 my-2">
                     <a target="_blank" href="https://i.imgur.com/4jkzVGA.png">Image 10<img style="width: 100%;" src="https://i.imgur.com/4jkzVGA.png"/></a>
                   </div>
-                  <div class="col-12 my-2">
+                  <div class="col-6 my-2">
                     <a target="_blank" href="https://i.imgur.com/70z0i5a.png">Image 11<img style="width: 100%;" src="https://i.imgur.com/70z0i5a.png"/></a>
                   </div>
                 </div>
               </div>
+
+                <div class="col-12 col-lg-12">
+                <p>
+                  The general rule is that fully featured packs will require 4-7 gigabytes of ram, that means you should in general have 8 gigabytes of ram installed on your pc to run a pack. This gives you ram to use for your operating system and other programs.
+                </p>
+              </div>
               <div class="col-12 col-lg-12 default override">
                 <p>
-                To get the amount of ram you wand to allocate take the GiB ammount and multiply it by 1024 to get the size in MiB. So if you want 6 GB's of ram for your pack (my recomended default) use the number <code>6144</code>. So now your settings page should look like image 12. Now that the default ram has been set you can start the pack, if it doesnt play very well you can try increasing the ram but keep in mind, more is not always better. The more ram you add to minecraft the harder it has to work to clear that memory. In general I wouldnt suggest more than 8 for any minecraft instance, though there are exeptions.
+                To get the amount of ram you wand to allocate take the GiB ammount and multiply it by 1024 to get the size in MiB. So if you want 6 GB's of ram for your pack (my recomended default) use the number <code>6144</code>. So now your settings page should look like image 12. <br /><br /> Now that the default ram has been set you can start the pack. If it doesnt play very well you can try increasing the ram, but keep in mind more is not always better. The more ram you add to minecraft the harder it has to work to clear that memory. In general I wouldnt suggest more than 8 for any minecraft instance, though there are exeptions.
                 </p>
               </div>
               <div class="col-12 col-lg-5">
@@ -163,7 +173,7 @@
           <div class="card-body">
             <div class="row">
               <div class="col-12">
-                Now that you have Twitch setup and a pack installed the reset is just like using the vanilla launcher. Once you hit play Twitch will open the vanilla lancher with a seperate list of profiles that will have the modpack you want to play. You will need to login first as normal, then hit play in the launcher, thats it. To install new packs just repeat the steps above.
+                Now that you have Twitch setup and a pack installed the rest is just like using the vanilla launcher. Once you hit play Twitch will open the vanilla lancher with a seperate list of profiles that will have the modpack you want to play. You will need to login first as normal, then hit play in the launcher, thats it. To install new packs just repeat the steps above.
               </div>
             </div>
           </div>
