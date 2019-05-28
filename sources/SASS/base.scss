@@ -8,10 +8,6 @@ $grid-gutter-width: 30px;
 // overrides
 @import 'D:/git/LiveSite/include/layout/calender/calendar.scss';
 
-.card-header{
-  max-height: 65px;
-}
-
 // global styles
 
 html {
@@ -330,7 +326,7 @@ div.CascadeList{
       letter-spacing: 0.04em;
       &.card-link{
         img{
-          height: 100%;
+          height: 40px;
           margin-right: 4%;
         }
       }
