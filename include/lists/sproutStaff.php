@@ -34,7 +34,7 @@
     </div>
     <div id="heek89" class="collapse" data-parent="#sproutStaff">
       <div class="card-body">
-        Has been banned. We do not speak of him.
+        Is a cool dude, you should talk to him. <i>Do not fear, he is mostly sane...</i>
       </div>
     </div>
   </div>
