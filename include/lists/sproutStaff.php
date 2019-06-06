@@ -72,6 +72,7 @@
     </div>
     <div id="crowonic" class="collapse" data-parent="#sproutStaff">
       <div class="card-body">
+        Freind of the confused, willing to help and always open to changing her perspecive. Open and changing, a clear and shifting mind, a valuble opinion to have in the ever changing world we live in.
       </div>
     </div>
   </div>
