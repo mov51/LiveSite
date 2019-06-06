@@ -27,7 +27,7 @@
                 I host a server for the modpack sprout. The pack is focused on exploration and intermod gating. This means that in order to progress through the pack you have to touch on each of the mods and explore the world to find the resources you need.
               </p>
               <p>
-                To install the pack you can use the <a href="https://www.twitch.tv/downloads">twitch launcher</a> or <a href="https://multimc.org/">multiMC</a> from <a href="https://minecraft.curseforge.com/projects/sprout-explore-for-more?gameCategorySlug=modpacks&projectID=269327">curse</a>.
+                To install the pack you can use the <a href="https://www.twitch.tv/downloads">twitch launcher</a> or <a href="https://multimc.org/">multiMC</a> from <a href="https://minecraft.curseforge.com/projects/sprout-explore-for-more?gameCategorySlug=modpacks&projectID=269327">curse</a>.<br />I have some instructions for installing packs with the twitch launcher <a href="https://mov51.net/Instructions.php#TwitchLancher" >here</a>, they should help get you started.
               </p>
             </div>
             <div class="center box danger mb-3">
